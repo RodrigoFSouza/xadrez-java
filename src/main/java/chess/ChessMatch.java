@@ -232,5 +232,9 @@ public class ChessMatch {
         placeNewPiece('g', 8, new Knight(board, Color.BLACK));
         placeNewPiece('b', 1, new Knight(board, Color.WHITE));
         placeNewPiece('g', 1, new Knight(board, Color.WHITE));
+
+        // incluindo a Rainha
+        placeNewPiece('d', 8, new Queen(board, Color.BLACK));
+        placeNewPiece('d', 1, new Queen(board, Color.WHITE));
     }
 }
